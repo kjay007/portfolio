@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasun Jayasinghe - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+
+      <!-- skill icon -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+      
+      <!-- favicon -->
+      <link rel="icon" href="https://i.ibb.co/YWJ5HK3/FAVICON.png" type="image/x-icon">
+      <link rel="icon" href="https://i.ibb.co/YWJ5HK3/FAVICON.png" type="image/png">
+      <link rel="icon" href="https://i.ibb.co/YWJ5HK3/FAVICON.png" type="image/png">
+
+      <link rel="stylesheet" href="styles.css">
+<!-- reviews -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">      
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <link rel="icon" href="https://ibb.co/cTQdWkX/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://ibb.co/cTQdWkX/favicon.png" type="image/png">
+    <link rel="icon" href="https://ibb.co/cTQdWkX/favicon.png" type="image/png">
+
+    <!--w -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <div id="particles-js"></div>
+
+
+    <div class="gradient-bg"></div>
+<div class="cloud"></div>
+  
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#home">KJ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">HOME</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <audio id="bassDropSound">
+        <source src="Bass Drop Impact Sound Effect HQ.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="backgroundAudio">
+        <source src="Journey through the NEBULAS.mp3" type="audio/mpeg">
+    </audio>
+    
+    <audio id="hoverSound">
+        <source src="out sound.mp3" type="audio/mpeg">
+    </audio>
+    
+<!-- Audio Mute Button -->
+<div class="audio-control-wrapper">
+    <button id="muteButton" class="audio-mute-btn">
+        <i class="bi bi-volume-up-fill"></i>
+        <i class="bi bi-volume-mute-fill"></i>
+    </button>
+    
+</div>
+
+    <div>
+        <input type="checkbox" id="checkboxInput">
+        <label for="checkboxInput" class="toggleSwitch">
+            <div class="speaker">
+                <svg class="bell" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                </svg>
+            </div>
+            <div class="mute-speaker">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="19 5 23 9 19 13"></polygon>
+                    <polygon points="5 19 1 15 5 11"></polygon>
+                </svg>
+            </div>
+        </label>
+    </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right"><br><br><br><br><br><br><br>
+                    <h1 class="display-4 fw-bold mb-4">Kasun<br>Jayasinghe</h1>
+                    <p class="lead text-secondary mb-4">Professional Video Editor</p>
+                    <div class="d-flex gap-3">
+                        <a href="#work" class="btn btn-danger btn-lg btn-custom">View Portfolio</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg btn-custom">Contact Me</a>
+                    </div>
+                </div>
+                <audio id="bassDropSound">
+                    <source src="Bass Drop Impact Sound Effect HQ.mp3" type="audio/mpeg">
+                </audio>
+                <div class="col-lg-6" data-aos="fade-left">
+
+                    <div class="hero-video">
+   <div class="hero-video">
+    <video src="model.mp4" class="img-fluid rounded-4" autoplay loop muted playsinline>
+        Your browser does not support the video tag.
+    </video>
+
+</div>
+</div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- Statistics Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4" data-aos="fade-up">
+                <div class="col-md-4">
+                    <div class="stats-card text-center p-4">
+                        <div class="counter" data-target="70">0</div>
+                        <p class="mb-0">Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stats-card text-center p-4">
+                        <div class="counter" data-target="120">0</div>
+                        <p class="mb-0">Projects Completed</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stats-card text-center p-4">
+                        <div class="counter" data-target="75">0</div>
+                        <p class="mb-0">Reviews Given</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="skill-card p-4">
+                        <i class="skill-icon fas fa-video"></i>
+                        <h3 class="h5 mb-3">Video Editing</h3>
+                        <p class="text-secondary mb-0">Professional expertise in industry-standard tools and techniques.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-card p-4">
+                        <i class="skill-icon fas fa-layer-group"></i>
+                        <h3 class="h5 mb-3">Motion Graphics</h3>
+                        <p class="text-secondary mb-0">Creating engaging and dynamic motion graphics for various platforms.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-card p-4">
+                        <i class="skill-icon fas fa-palette"></i>
+                        <h3 class="h5 mb-3">Color Grading</h3>
+                        <p class="text-secondary mb-0">Expert color correction and grading for professional results.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+   <section id="work" class="py-5">
+     <section class="portfolio-section">
+        <h1 class="portfolio-title">Portfolio</h1>
+       <div class="portfolio-grid">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/jzWkD5IwByo/maxresdefault.jpg" alt="Project 1 Thumbnail">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 1</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('jzWkD5IwByo', 'Project 1')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/o3dyECtL8Qc/maxresdefault.jpg" alt="Project 2 Thumbnail">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 2</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('o3dyECtL8Qc', 'Project 2')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 3 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/CHH_FOGTVHQ/maxresdefault.jpg" alt="Project 3 Thumbnail">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 3</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('CHH_FOGTVHQ', 'Project 3')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 4 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/t6QvTuIFzP8/maxresdefault.jpg" alt="Project 4 Thumbnail">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 4</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('t6QvTuIFzP8', 'Project 4')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 5 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/csqxzImNtLU/maxresdefault.jpg" alt="Project 5 Thumbnail">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 5</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('csqxzImNtLU', 'Project 5')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 6 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/bKPiXYvaH9Y/maxresdefault.jpg" alt="Project 6 Thumbnail">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 6</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('bKPiXYvaH9Y', 'Project 6')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 7 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/A2_5j_r_FP8/maxresdefault.jpg" alt="Project 7 Thumbnail">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 7</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('A2_5j_r_FP8', 'Project 7')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 8 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/YMeeAT87pUc/maxresdefault.jpg" alt="Project 8 Thumbnail">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 8</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('YMeeAT87pUc', 'Project 8')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 9 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/70msUcOn0o0/maxresdefault.jpg" alt="Project 9 Thumbnail">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 9</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('70msUcOn0o0', 'Project 9')">View Project</button>
+                </div>
+            </div>
+<!-- Portfolio Item 10 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/24umNYDffFc/maxresdefault.jpg" alt="Project 10 Thumbnail" onerror="this.src='https://img.youtube.com/vi/24umNYDffFc/hqdefault.jpg'">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 10</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('24umNYDffFc', 'Project 10')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 11 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/n4hRQMwqs78/maxresdefault.jpg" alt="Project 11 Thumbnail" onerror="this.src='https://img.youtube.com/vi/n4hRQMwqs78/hqdefault.jpg'">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 11</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('n4hRQMwqs78', 'Project 11')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 12 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/CfljNgcKpkQ/maxresdefault.jpg" alt="Project 12 Thumbnail" onerror="this.src='https://img.youtube.com/vi/CfljNgcKpkQ/hqdefault.jpg'">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 12</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('CfljNgcKpkQ', 'Project 12')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 13 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/qk8npL6Yiy4/maxresdefault.jpg" alt="Project 13 Thumbnail" onerror="this.src='https://img.youtube.com/vi/qk8npL6Yiy4/hqdefault.jpg'">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 13</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('qk8npL6Yiy4', 'Project 13')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 14 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/1nrrq-54Emg/maxresdefault.jpg" alt="Project 14 Thumbnail" onerror="this.src='https://img.youtube.com/vi/1nrrq-54Emg/hqdefault.jpg'">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 14</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('1nrrq-54Emg', 'Project 14')">View Project</button>
+                </div>
+            </div>
+            <!-- Portfolio Item 15 -->
+            <div class="portfolio-item">
+                <img src="https://img.youtube.com/vi/s2KYGViHRLo/maxresdefault.jpg" alt="Project 15 Thumbnail" onerror="this.src='https://img.youtube.com/vi/s2KYGViHRLo/hqdefault.jpg'">
+                <div class="portfolio-overlay">
+                    <h3 class="project-title">Project 15</h3>
+                    <button class="view-project-btn" onclick="openVideoModal('s2KYGViHRLo', 'Project 15')">View Project</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- Watch All Projects Button -->
+        <div class="playlist-section">
+            <a href="https://www.youtube.com/watch?v=o3dyECtL8Qc&list=PL05br34CdB_tsN4VtlkhUAjdeMbHvFiwF" 
+               class="cssbuttons-io-button" 
+               target="_blank">
+                Watch All Projects
+                <div class="icon">
+                    <svg
+                        height="24"
+                        width="24"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                            fill="currentColor"
+                        ></path>
+                    </svg>
+                </div>
+            </a>
+        </div>
+         <!-- sSkills Section -->
+    <section class="sskills-section">
+        </section>
+        <div class="sskills-grid">
+            <!-- Photo Editing -->
+            <div class="sskill-item">
+                <div class="sskill-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                        <circle cx="8.5" cy="8.5" r="1.5"/>
+                        <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+                    </svg>
+                </div>
+                <h3 class="sskill-title">Photo Editing</h3>
+                <p class="sskill-description">Professional photo retouching, color correction, and creative manipulation using industry-standard tools.</p>
+                <div class="sskill-overlay">
+                    <button class="view-sskill-btn" onclick="openPopup('photoEditingPopup')">View Examples</button>
+                </div>
+            </div>
+            
+            <!-- Web Development -->
+            <div class="sskill-item">
+                <div class="sskill-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16,18 22,12 16,6"/>
+                        <polyline points="8,6 2,12 8,18"/>
+                    </svg>
+                </div>
+                <h3 class="sskill-title">Web Development</h3>
+                <p class="sskill-description">Modern, responsive websites and web applications built with clean code and cutting-edge technologies.</p>
+                <div class="sskill-overlay">
+                    <button class="view-sskill-btn" onclick="openPopup('webDevelopmentPopup')">View Examples</button>
+                </div>
+            </div>
+            
+            <!-- Graphic Design -->
+            <div class="sskill-item">
+                <div class="sskill-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                        <line x1="8" y1="21" x2="16" y2="21"/>
+                        <line x1="12" y1="17" x2="12" y2="21"/>
+                    </svg>
+                </div>
+                <h3 class="sskill-title">Graphic Design</h3>
+                <p class="sskill-description">Creative visual solutions including logos, branding, illustrations, and print design that communicate effectively.</p>
+                <div class="sskill-overlay">
+                    <button class="view-sskill-btn" onclick="openPopup('graphicDesignPopup')">View Examples</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--S logo-->
+    <div class="software-container" data-aos="fade">
+        <div class="software-wrapper">
+            
+            <div class="software-icons">
+                <a href="#" class="software-icon ps" title="Adobe Photoshop">Ps</a>
+                <a href="#" class="software-icon ai" title="Adobe Illustrator">Ai</a>
+                <a href="#" class="software-icon pr" title="Adobe Premiere Pro">Pr</a>
+                <a href="#" class="software-icon ae" title="Adobe After Effects">Ae</a>
+                <a href="#" class="software-icon dr" title="DaVinci Resolve">Dr</a>
+            </div>
+        </div>
+    </div>
+
+    <!--about-->
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="about-section">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <h1 data-aos="fade ">About Me</h1>
+                          <div class="bio-container">
+        <p>
+            <span class="highlight-orangee">............</span>I'm a <span class="highlight-orange">creative and detail-oriented visual content creator</span> with over <span class="highlight-orange">1 years of professional experience</span> in graphic design, photo editing, and video editing. My passion lies in transforming ideas into compelling visual stories that resonate with audiences and drive measurable results.
+            <br><br>
+            As a <span class="highlight-red">Fiverr Freelancer</span> and trusted partner to direct clients, I've successfully delivered <span class="highlight-red">hundreds of projects</span> ranging from wedding photo retouching and social media graphics to documentary-style videos and cinematic promotional content. My expertise spans the complete <span class="highlight-red">Adobe Creative Suite</span> (Photoshop, Premiere Pro, After Effects) and <span class="highlight-red"></span>, allowing me to bring a comprehensive approach to every project and provide clients with cinematic creations that captivate and inspire.
+            <br><br>
+            Currently pursuing my degree in <span class="highlight-red">Information Technology at the University of Moratuwa</span>, I combine a strong technical foundation in software development, multimedia technologies, and information systems with an artistic vision. Whether it's creating the perfect Instagram reel, color grading a cinematic wedding video, or designing engaging social media posts, I approach each project with a <span class="highlight-red">keen attention to detail</span> and a commitment to exceeding clients' expectations.
+             I believe in the power of visual storytelling to connect, inspire, and transform—and I bring that philosophy to every frame I edit and every design I create.
+        </p>
+    </div>
+                        
+                        <div class="skills-section">
+                            <h2>Skills</h2>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <i>→</i>
+                                    <span>Video Editing</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i>→</i>
+                                    <span>SFX</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i>→</i>
+                                    <span>Motion Graphics</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i>→</i>
+                                    <span>Color Grading</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i>→</i>
+                                    <span>Sound Design</span>
+                                    
+                                </div>
+                                <div class="skill-item">
+                                    <i>→</i>
+                                    <span>Storyboarding</span>
+                                    
+                                </div>
+                                <div class="skill-item">
+                                    <i>→</i>
+                                    <span>Visual Effects</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i>→</i>
+                                    <span>Cinematography</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="education-experience">
+        <div class="container">
+            <!-- Education Section -->
+            <div class="timeline-section education">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Information Technology</h3>
+                            <h4>University of Moratuwa, Sri Lanka</h4>
+                            <p class="year">2022</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Film Color Grading with Davinci Resolve Course</h3>
+                            <h4>Artistify</h4>
+                            <p class="year">2024</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Short Film Making Course</h3>
+                            <h4>Filmmaking MC</h4>
+                            <p class="year">2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Experience Section -->
+           <div class="timeline-section experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>Freelance Video Editor</h3>
+                <h4>Fiverr</h4>
+                <p class="year">2020 – 2026</p>
+                <div class="experience-card">
+                    <ul class="experience-details">
+                        <li>Delivered professional video edits with color correction and audio synchronization</li>
+                        <li>Multiple projects to meet deadlines and exceed client expectations</li>
+                        <li>Promo videos, social media content, and YouTube videos</li>
+                        <li>Worked with AI-generated videos, enhanced with manual editing, transitions & sound design</li>
+                        <li>Short-form videos with simple 2D animated elements</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>Freelance Video Editor</h3>
+                <h4>Direct Clients</h4>
+                <p class="year">2023 – 2025</p>
+                <div class="experience-card">
+                    <ul class="experience-details">
+                        <li>Created tailored promotional videos for local businesses and personal brands</li>
+                        <li>Developed high-quality Instagram Reels and YouTube Shorts for individual entrepreneurs</li>
+                        <li>Multi-camera video editing for events and podcasts</li>
+                        <li>Social media content </li>
+                        <li>Website presentation videos & motion graphics</li>
+                        <li>Simple 2D animated scenes for promos & explainers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>Video Editor</h3>
+                <h4>Video editing agency</h4>
+                <p class="year">2023 – 2025</p>
+                <div class="experience-card">
+                    <ul class="experience-details">
+                        <li>Event videos (stage shows, presentations, live recordings)</li>
+                        <li>Reels, Shorts & TikTok with fast cuts, captions & motion text</li>
+                        <li>Documentary-style edits with VO sync & B-roll storytelling</li>
+                        <li>Animated characters & motion graphics for narrative enhancement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>Graphic Designer & Photo Editor</h3>
+                <h4>Fiverr | Smart Media</h4>
+                <p class="year">2022 – 2025</p>
+                <div class="experience-card">
+                    <ul class="experience-details">
+                        <li>Product packaging, flyers, posters & digital creatives</li>
+                        <li>Professional photo retouching, color correction & enhancement</li>
+                        <li>High-detail iris photo editing</li>
+                        <li>AI-based product photography for ads & e-commerce</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>AI Video Generation & Editing</h3>
+                <h4>Freelance Projects</h4>
+                <p class="year">2024 – 2026</p>
+                <div class="experience-card">
+                    <ul class="experience-details">
+                        <li>AI video generation (text-to-video / image-to-video)</li>
+                        <li>AI video ads for products & brands</li>
+                        <li>AI product visuals converted into marketing videos</li>
+                        <li>Short 2D animation films</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+      <!-- Reviews -->
+    <section id="reviews" class="reviews-section">
+        <div class="reviews-container">
+            <h2 class="R-title">Client Reviews</h2>
+            
+            <div class="review-slider">
+                <div class="review-track">
+                    <!-- Original Reviews 
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★★</div>
+                            <div class="review-quote">
+                                Kasun's video editing skills are exceptional. He transformed our raw footage into a compelling narrative that truly captured our brand's essence.
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/Dp2grjc/profile777.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">Sarah Thompson</div>
+                                    <div class="reviewer-title">Marketing Director, Tech Innovations</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★★</div>
+                            <div class="review-quote">
+                                Working with Kasun was a game-changer. His attention to detail and creative approach elevated our YouTube content to a professional level.
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/Dp2grjc/profile777.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">Michael Chen</div>
+                                    <div class="reviewer-title">Content Creator, Digital Media</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★★</div>
+                            <div class="review-quote">
+                                Kasun's color grading and editing skills are top-notch. He consistently delivers high-quality work that exceeds our expectations.
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/Dp2grjc/profile777.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">Emily Rodriguez</div>
+                                    <div class="reviewer-title">Creative Director, Brand Studio</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  -->
+
+                    <!-- New Reviews -->
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★★</div>
+                            <div class="review-quote">
+                                "Second time, and won't be the last time I use his help. Great work on his end indeed!"
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/DMr59PH/New-Project.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">hbjenterprise2</div>
+                                    <img src="https://flagcdn.com/w20/us.png" alt="United States" class="country-flag">
+                                    <div class="reviewer-title">United States</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★★</div>
+                            <div class="review-quote">
+                                "Very professional and helpful in several manners. Seeks to understand your need and proceeds to reach out for clarification along the way. I would recommend every time."
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/DMr59PH/New-Project.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">hbjenterprise2</div>
+                                    <img src="https://flagcdn.com/w20/us.png" alt="United States" class="country-flag">
+                                    <div class="reviewer-title">United States</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★☆</div>
+                            <div class="review-quote">
+                                "This was first time working with this seller and I got 3D mockups."
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/DMr59PH/New-Project.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">goloworez</div>
+                                    <img src="https://flagcdn.com/w20/fi.png" alt="Finland" class="country-flag">
+                                    <div class="reviewer-title">Finland</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★★</div>
+                            <div class="review-quote">
+                                "Seller is patient and he understood my needs and delivered exactly what I wanted. Will hire again!"
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/DMr59PH/New-Project.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">addydhanjani</div>
+                                    <img src="https://flagcdn.com/w20/sr.png" alt="Suriname" class="country-flag">
+                                    <div class="reviewer-title">Suriname</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★☆</div>
+                            <div class="review-quote">
+                                "Efficient and useful."
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/DMr59PH/New-Project.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">lexandrefabret</div>
+                                    <img src="https://flagcdn.com/w20/fr.png" alt="France" class="country-flag">
+                                    <div class="reviewer-title">France</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★★</div>
+                            <div class="review-quote">
+                                "Excellent job. Thanks for everything."
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/DMr59PH/New-Project.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">johnstubbs</div>
+                                    <img src="https://flagcdn.com/w20/us.png" alt="United States" class="country-flag">
+                                    <div class="reviewer-title">United States</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★☆</div>
+                            <div class="review-quote">
+                                "Great job."
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/DMr59PH/New-Project.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">johnstubbs</div>
+                                    <img src="https://flagcdn.com/w20/us.png" alt="United States" class="country-flag">
+                                    <div class="reviewer-title">United States</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-inner">
+                            <div class="star-rating">★★★★★</div>
+                            <div class="review-quote">
+                                "I am very much impressed, brother."
+                            </div>
+                            <div class="reviewer-info">
+                                <img src="https://i.ibb.co/DMr59PH/New-Project.png" alt="Client Avatar" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">Naseef Shihar</div>
+                                    <img src="https://flagcdn.com/w20/lk.png" alt="Sri Lanka" class="country-flag">
+                                    <div class="reviewer-title">Sri Lanka</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Section -->
+        <section id="client-map" class="py-5">
+            <div class="container">
+                <div class="map-container">
+                    <img src="Map-1.png" alt="World Map" width="963" height="547">
+                    <div class="map-marker" style="top: 35%; left: 20%;" title="United States"><img src="micon.png" alt="marker"></div>
+                    <div class="map-marker" style="top: 22%; left: 52%;" title="Finland"><img src="micon.png" alt="marker"></div>
+                    <div class="map-marker" style="top: 60%; left: 32%;" title="Suriname"><img src="micon.png" alt="marker"></div>
+                    <div class="map-marker" style="top: 30%; left: 48%;" title="France"><img src="micon.png" alt="marker"></div>
+                    <div class="map-marker" style="top: 56%; left: 69%;" title="Sri Lanka"><img src="micon.png" alt="marker"></div>
+                    <div class="map-marker" style="top: 70%; left: 85%;" title="Australia"><img src="micon.png" alt="marker"></div>
+                    <div class="map-marker" style="top: 25%; left: 15%;" title="Canada"><img src="micon.png" alt="marker"></div>
+                </div>
+            </div>
+        </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h2 class="display-6 mb-4">Get in Touch</h2>
+                    <div class="mb-4">
+                        <p class="mb-2">
+                            <i class="bi bi-telephone-fill text-danger me-2"></i>
+                            +94 78 570 6657
+                        </p>
+                        <p class="mb-2">
+                            <i class="bi bi-envelope-fill text-danger me-2"></i>
+                            kasunkalhar007@gmail.com
+                        </p>
+                        <p class="mb-2">
+                            <i class="bi bi-geo-alt-fill text-danger me-2"></i>
+                            007, Rathnapura, Sri lanka
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="973bc4ea-9dd3-423b-bf21-a708842f7b68">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                
+                        <div class="mb-3">
+                            <input type="text" name="name" class="form-control bg-dark text-white border-dark" placeholder="Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" name="email" class="form-control bg-dark text-white border-dark" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="message" class="form-control bg-dark text-white border-dark" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-danger w-100 btn-custom">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    
+    <!-- Add this right before the closing body tag -->
+<footer class="creative-footer">
+    <div class="footer-waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <div class="container footer-content">
+        <div class="row">
+            <div class="col-lg-4 footer-section" data-aos="fade-right">
+                <h3 class="footer-title">KJ</h3>
+                <p class="footer-description">Creating compelling visual stories through professional video editing and motion graphics.</p>
+                <div class="social-icons">
+    <a href="https://www.instagram.com/kasun_jayasinghe__/" class="social-icon"><i class="bi bi-facebook"></i></a>
+    <a href="https://youtube.com/@kjay007-o7x?si=z3ueGDwgXAGwWPKb" class="social-icon"><i class="bi bi-twitter"></i></a>
+    <a href="https://www.instagram.com/_k__jay__/" class="social-icon"><i class="bi bi-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/kasun-jayasinghe-574824277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+</div>
+            </div>
+            <div class="col-lg-4 footer-section" data-aos="fade-up">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#work">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 footer-section" data-aos="fade-left">
+                <h3 class="footer-title">Newsletter</h3>
+                <p class="footer-description">Subscribe to get updates about new projects and offerings.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" class="newsletter-input">
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2024 Kasun Jayasinghe. All rights reserved.</p>
+    </div>
+      <!-- Bootstrap JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+      <!-- AOS Animation Library -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+      <script src="scripts.js"></script>
+</footer>
+    
+</body>
+</html>
